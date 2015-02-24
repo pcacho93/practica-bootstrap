@@ -1,0 +1,107 @@
+// Core variables and mixins
+@import "bower_components/bootstrap/less/variables.less";
+@import "variables.less";
+@import "bower_components/bootstrap/less/mixins.less";
+
+// Reset and dependencies
+@import "bower_components/bootstrap/less/normalize.less";
+@import "bower_components/bootstrap/less/print.less";
+@import "bower_components/bootstrap/less/glyphicons.less";
+
+// Core CSS
+@import "bower_components/bootstrap/less/scaffolding.less";
+@import "bower_components/bootstrap/less/type.less";
+@import "bower_components/bootstrap/less/code.less";
+@import "bower_components/bootstrap/less/grid.less";
+@import "bower_components/bootstrap/less/tables.less";
+@import "bower_components/bootstrap/less/forms.less";
+@import "bower_components/bootstrap/less/buttons.less";
+
+// Components
+@import "bower_components/bootstrap/less/component-animations.less";
+@import "bower_components/bootstrap/less/dropdowns.less";
+@import "bower_components/bootstrap/less/button-groups.less";
+@import "bower_components/bootstrap/less/input-groups.less";
+@import "bower_components/bootstrap/less/navs.less";
+@import "bower_components/bootstrap/less/navbar.less";
+@import "bower_components/bootstrap/less/breadcrumbs.less";
+@import "bower_components/bootstrap/less/pagination.less";
+@import "bower_components/bootstrap/less/pager.less";
+@import "bower_components/bootstrap/less/labels.less";
+@import "bower_components/bootstrap/less/badges.less";
+@import "bower_components/bootstrap/less/jumbotron.less";
+@import "bower_components/bootstrap/less/thumbnails.less";
+@import "bower_components/bootstrap/less/alerts.less";
+@import "bower_components/bootstrap/less/progress-bars.less";
+@import "bower_components/bootstrap/less/media.less";
+@import "bower_components/bootstrap/less/list-group.less";
+@import "bower_components/bootstrap/less/panels.less";
+@import "bower_components/bootstrap/less/responsive-embed.less";
+@import "bower_components/bootstrap/less/wells.less";
+@import "bower_components/bootstrap/less/close.less";
+
+// Components w/ JavaScript
+@import "bower_components/bootstrap/less/modals.less";
+@import "bower_components/bootstrap/less/tooltip.less";
+@import "bower_components/bootstrap/less/popovers.less";
+@import "bower_components/bootstrap/less/carousel.less";
+
+// Utility classes
+@import "bower_components/bootstrap/less/utilities.less";
+@import "bower_components/bootstrap/less/responsive-utilities.less";
+
+
+
+
+
+// Add CSS Customizations to your theme here.
+h1, h2, h3, h4, h5, h6{
+   //color: @brand-primary;
+}
+
+h1{
+	font-family:  'Over the Rainbow', cursive;
+}
+h2{
+	padding-left: 5px;
+}
+/* ---------------------------------------------------------------------------------------------
+Sticky footer styles ---->copiado de los ejemplos definidos el la web de bootstrap:
+http://getbootstrap.com/examples/sticky-footer-navbar
+------------------------------------------------------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  color: @gray-dark;
+  background-color: #f5f5f5;
+  ul{padding: 0px;}
+}
+
+/*Iconos para redes sociales, mediante un sprite*/
+.social-icons { background: url('../images/sprites.png') no-repeat; list-style:none;float:left;}
+.digg { width: 72px; height: 72px; background-position: 0 0; }
+.dribbble { width: 72px; height: 72px; background-position: 0 -73px; }
+.email { width: 72px; height: 72px; background-position: 0 -146px; }
+.facebook { width: 72px; height: 72px; background-position: 0 -219px; }
+.flickr { width: 72px; height: 72px; background-position: 0 -292px; }
+.forrst { width: 72px; height: 72px; background-position: 0 -365px; }
+.googleplus { width: 72px; height: 72px; background-position: 0 -438px; }
+.linkedin { width: 72px; height: 72px; background-position: 0 -511px; }
+.pinterest { width: 72px; height: 72px; background-position: 0 -584px; }
+.rss { width: 72px; height: 72px; background-position: 0 -657px; }
+.share { width: 72px; height: 72px; background-position: 0 -730px; }
+.skype { width: 72px; height: 72px; background-position: 0 -803px; }
+.tumblr { width: 72px; height: 72px; background-position: 0 -876px; }
+.twitter { width: 72px; height: 72px; background-position: 0 -949px; }
+.youtube { width: 72px; height: 72px; background-position: 0 -1022px; }
